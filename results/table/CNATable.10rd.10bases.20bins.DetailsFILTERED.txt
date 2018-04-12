@@ -1,1 +1,0 @@
-Targeted.Region.ID	Exon.Number	Gene.Sym	Chr	OriStCoordinate	OriEndCoordinate	Mean.of.LogRatio	Adjusted.Mean.of.LogRatio	SD.of.LogRatio	Median.of.LogRatio	number.bases	P.Value	Adjusted.P.Value	gain.loss	tumour.rd	normal.rd	tumour.rd.ori	normal.rd.ori	MinLogRatio	MaxLogRatio	BinNumber
