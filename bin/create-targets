@@ -1,0 +1,9 @@
+#!/bin/bash
+
+find -L data/ \
+	-type f \
+	-name "*N_*.bam" \
+| sed \
+	-e "s#data/#results/#" \
+	-e "s#.bam##"
+## ^^ Dado que el target sera un directorio, en este caso, la extension .bam se remplaza por nada lo cual señala que la cadena se refiere a la ruta de un directorio
